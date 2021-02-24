@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://image.shutterstock.com/image-vector/initial-p-gaming-esport-logo-260nw-1514007545.jpg" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- home section -->
+    <section class="white-section" id="home">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Portfolio</a>
+          </div>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#study">Studies</a></li>
+            <li><a href="#inter">Interests</a></li>
+            <li><a href="#cont">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+       <h1 class="name">Pragun Tiwari</h1>
+       <img class="intro-img" src="images/pragun.jpg" alt="my-image">
+       <h1>An Engineering Student</h1>
+    </section>
+
+    <!-- about me section -->
+      <section class="black-section" id="aboutme">
+          <h1 class="abtme">About Me</h1>
+          <p class="intro">My name is Pragun Tiwari and my current age is 20 years. Currently I am in my 3rd year bachelors degree in engineering form electronics and telecommunication branch. I love playing sports and working out. My current aim is to learn the basics and fundamentals of software development. I am quite a competetive guy who likes some challenges. </p>
+          <p class="intro">I had a very humble upbringing. I am someone who is not shy from working hard and smart at times when required. </p>
+      </section>
+
+      <!-- education section -->
+      <section class="white-section" id="study">
+          <h1 class="edu">Education</h1>
+          <table class="styled-table" style="width: 750px; height: 300px;">
+            <thead>
+                <tr class="head-row">
+                    <th>Education Type</th>
+                    <th>School/College</th>
+                    <th>Years</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="active-row">
+                    <td>High School</td>
+                    <td>St. Augustines</td>
+                    <td>2004-2016</td>
+                </tr>
+                <tr class="active-row">
+                    <td>Junior College</td>
+                    <td>Thomas Baptista</td>
+                    <td>2016-2018</td>
+                </tr>
+                <tr class="active-row">
+                  <td>Degree College</td>
+                  <td>Thakur College Of Eng. and Tech.</td>
+                  <td>2018-2022</td>
+                </tr>
+                
+            </tbody>
+        </table>
+      </section>
+
+      <!-- interests section -->
+      <section class="black-section" id="inter">
+        <h1 class="edu">My Interests</h1>
+        <div id="interests-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#interests-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#interests-carousel" data-slide-to="1"></li>
+            <li d  ata-target="#interests-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <h2 class="int">Python Programming Language</h2>
+              <img class="intro-img" src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" alt="python-image">
+              <p class="carousel-desc">I learnt the basics of this language in the 2nd year and straight away started to develop an interest in it. I have made certain minor and major projects using this language.</p>
+            </div>
+            <div class="item">
+              <h2 class="int">Basic electronics</h2>
+              <img class="intro-img" src="https://www.indcareer.com/files/B.E%20Electronics%20&%20Power%20Engineering.jpg" alt="electronic-img">
+              <p class="carousel-desc">I am currently pursuing my degree from this branch as I have quite a lot of interest about electronics and various electrical equipments.</p>
+            </div>
+            <div class="item">
+              <h2 class="int">Web Development</h2>
+              <img class="intro-img" src="https://i.gifer.com/origin/a8/a8cd3d7125a18817c5ded40bd77017d3_w200.webp" alt="webdev-img">
+              <p class="carousel-desc">I gained interest in web devlopment and web designing during the third year of my degree college. I have worked very hard to gain some knowledge in it.</p>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#interests-carousel"  data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#interests-carousel"  data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact me section -->
+
+      <footer class="white-section last-sec" id="cont">
+        <a class="footer-link" href="https://www.linkedin.com/in/pragun-tiwari-975221202/" target="blank">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://pragun17.github.io/cv/" target="blank">Website</a>
+        <p class="last">© 2020 Pragun Tiwari.</p>
+      </footer>
+
+</body>
+</html>

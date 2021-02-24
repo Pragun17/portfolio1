@@ -1,0 +1,143 @@
+h1 {
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.intro-img{
+    display: block;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name {
+    font-weight: 700;
+}
+
+.white-section{
+    line-height: 1.5;
+}
+
+.black-section{
+    background-color: black;
+    color: #fff;
+    line-height: 2;
+}
+
+.abtme{
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.intro{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 2rem;
+}
+.edu{
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+.int{
+    text-align: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: "Montserrat";
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+}
+
+.head-row{
+    font-size: 2.5rem;
+}
+
+.carousel-desc{
+    font-family: "Montserrat";
+    font-weight: 900;
+    text-align: center;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+[role=button] {
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.last-sec{
+    background-color: white;
+    padding: 50px 0 20px;
+    text-align: center;
+    line-height: 3;
+}
+.footer-link{
+    color: black;
+    position: relative;
+    top: auto;
+    font-family: "Montserrat";
+    font-weight: 900;
+    margin: 10px 20px;
+    text-decoration: none;
+}
